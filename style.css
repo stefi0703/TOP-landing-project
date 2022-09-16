@@ -46,12 +46,6 @@
     width: 500px;
     height: 100%;
   }
- /* .start-cont, .left-cont{
-    flex:1;
-    display: flex;
-    padding: 10px;
-  }
-  */
   .left-cont{
     display:flex;
     flex-direction: column;
@@ -71,7 +65,7 @@
     font-size: 18px;
     margin-bottom: 10px;
   }
-  button{
+  .button1{
     border-radius:5px;
     background-color:#3882F6;
     color:#E5E7EB;
@@ -84,9 +78,8 @@
     text-align: center;
     color:#1F2937;
     display: flex;
-    flex-direction: column;
-    
-    padding:50px 180px 80px 180px;
+    flex-direction: column; 
+    padding:50px 180px 120px 180px;
   }
   .random{
     display: flex;
@@ -97,8 +90,9 @@
   }
   .chenars{
     display: flex;
-    padding: 30px 0 100px 0;
-    justify-content: space-evenly;
+    padding: 30px 0 0 0;
+    justify-content: center;
+    gap: 30px;
   }
   .img-ch{
     width: 200px;
@@ -106,14 +100,17 @@
   }
  .text{
   font-size: 18px;
-  max-width:200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 250px;
  }
  
 /*-------QUOTE-------*/
 .quote{
   background-color:#E5E7EB ;
   display: flex;
-  padding:60px 290px 50px 290px;
+  padding:60px 290px 70px 290px;
   flex-direction: column;
 }
 .quote-text{
@@ -128,3 +125,38 @@
   font-size: 18px;
   font-weight: bold;
 }
+
+/*-----ACTION------*/
+.action{
+  background-color: #d47929eb;
+  color: white;
+  display: flex;
+  padding: 30px 60px;
+  margin: 80px 180px;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.action1{
+  font-size: 20px;
+  font-weight: bold;
+}
+.button2{
+  border-radius:5px;
+  background-color:#d47929eb;
+  color:#E5E7EB;
+  width: 100px;
+  height: 30px;
+  border-color: #F9FAF8;
+}
+
+/*-------FOOTER-------*/
+.footer{
+  background-color: #1F2937;
+  color:#F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
